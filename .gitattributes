@@ -1,1 +1,7 @@
 step12.tar.gz filter=lfs diff=lfs merge=lfs -text
+.minikube/cache/images/amd64/registry.cn-hangzhou.aliyuncs.com/google_containers/kube-proxy_v1.20.2 filter=lfs diff=lfs merge=lfs -text
+.minikube/cache/images/registry.cn-hangzhou.aliyuncs.com/google_containers/dashboard_v2.1.0 filter=lfs diff=lfs merge=lfs -text
+.minikube/cache/images/registry.cn-hangzhou.aliyuncs.com/google_containers/etcd_3.4.13-0 filter=lfs diff=lfs merge=lfs -text
+kubectl filter=lfs diff=lfs merge=lfs -text
+.minikube/cache/linux/v1.20.2/kubelet filter=lfs diff=lfs merge=lfs -text
+istio-1.8.5/bin/istioctl filter=lfs diff=lfs merge=lfs -text
